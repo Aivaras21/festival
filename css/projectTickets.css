@@ -1,0 +1,53 @@
+/*========================
+TICKETS
+===========================*/
+
+.tickets-section .general-section .red-row {
+  background: #eb5757;
+  width: 31px;
+  height: 5px;
+  margin: 19px auto;
+}
+
+.tickets {
+  display: flex;
+
+  width: 424px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+  background-color: white;
+}
+.container-tickets {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(192, 192, 192, 0.1);
+}
+.tickets h1 {
+  text-align: center;
+}
+.tickets p {
+  text-align: center;
+  width: 285px;
+  margin-top: 40px;
+  color: rgba(34, 34, 34, 0.5);
+}
+.price {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 20px;
+}
+.number {
+  color: #eb5757;
+}
+.button {
+  background-color: #eb5757;
+  color: white;
+  width: 204px;
+  text-align: center;
+  padding: 12px;
+  margin: auto;
+  margin-top: 29px;
+}

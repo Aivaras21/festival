@@ -1,0 +1,71 @@
+/*=======================
+Location
+===================*/
+.map {
+  background-image: url("../images/Rectangle\ 27.png");
+  position: relative;
+  background-repeat: no-repeat;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  max-width: 1302px;
+  height: 640px;
+}
+.marker {
+  position: absolute;
+  left: 48%;
+  top: 41%;
+}
+/*========================
+CONTACTS
+==========================*/
+
+.contact-information {
+  max-width: 411px;
+  display: flex;
+  flex-direction: column;
+}
+.contactB {
+  display: flex;
+  gap: 5px;
+}
+.conP {
+  margin-top: 24px;
+}
+input {
+  width: 638px;
+  height: 54px;
+}
+.inputB {
+  height: 139px;
+  width: 638px;
+}
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 120px;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+.cbutton {
+  margin-right: 415px;
+}
+.minitxt {
+  color: orangered;
+}
+.bottom-line {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+
+  gap: 63px;
+  justify-content: end;
+  margin-right: 300px;
+}
+.bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-left: 100px;
+  margin-top: 80px;
+}
